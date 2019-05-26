@@ -4,7 +4,7 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 ruby '~> 2.5.3' # This is now set here and in .ruby-version
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '~> 5.2.1'
+gem 'rails', '~> 5.2.3'
 # Use postgresql as the database for Active Record
 gem 'pg'
 # Use Puma as the app server
@@ -17,7 +17,7 @@ gem 'uglifier', '>= 1.3.0'
 # gem 'mini_racer', platforms: :ruby
 
 # Use CoffeeScript for .coffee assets and views
-gem 'coffee-rails', '~> 4.2'
+gem 'coffee-rails', '~> 5.0'
 # Use jquery as the JavaScript library
 gem 'jquery-rails' #as of Rails 5.1 this is no longer a suggested default setting as rails comes with rails-ujs
 # Turbolinks makes navigating your web application faster. Read more: https://github.com/turbolinks/turbolinks
@@ -36,10 +36,10 @@ gem 'jbuilder', '~> 2.5'
 gem 'bootsnap', '>= 1.1.0', require: false
 
 # Use Devise for authentication
-gem 'devise', '~> 4.5.0'
+gem 'devise', '~> 4.6.2'
 
 # User PaperTrail for tracking
-gem 'paper_trail', '~> 10.0.1'
+gem 'paper_trail', '~> 10.3.0'
 
 #Use MiniMagick for compressing uploaded images
 gem 'mini_magick', '~> 4.9.2'
@@ -50,10 +50,10 @@ gem 'streamio-ffmpeg' #warning: this gem is no longer actively maintained, shoul
 gem 'browser', '~> 2.5.3'
 
 # Use Twilo for SMS notifications
-gem 'twilio-ruby', '~> 5.15.1'
+gem 'twilio-ruby', '~> 5.23.0'
 
 # Use Bootstrap
-gem 'bootstrap-sass', '~> 3.3.7'
+gem 'bootstrap-sass', '~> 3.4.1'
 
 # Use Prawn for PDF generation
 gem 'prawn', '~> 2.2'
