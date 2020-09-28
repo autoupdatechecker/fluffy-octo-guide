@@ -50,7 +50,7 @@ gem 'streamio-ffmpeg' #warning: this gem is no longer actively maintained, shoul
 gem 'browser', '~> 2.5.3'
 
 # Use Twilo for SMS notifications
-gem 'twilio-ruby', '~> 5.23.0'
+gem 'twilio-ruby', '~> 5.40.4'
 
 # Use Bootstrap
 gem 'bootstrap-sass', '~> 3.4.1'
