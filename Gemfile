@@ -42,7 +42,7 @@ gem 'devise', '~> 4.7.3'
 gem 'paper_trail', '~> 11.0.0'
 
 #Use MiniMagick for compressing uploaded images
-gem 'mini_magick', '~> 4.11.0'
+gem 'mini_magick', '~> 4.9.4'
 
 # Use Streamio for video conversion
 gem 'streamio-ffmpeg' #warning: this gem is no longer actively maintained, should use another solution e.g. use FFMPEG directly from ruby which is simple four our needs
