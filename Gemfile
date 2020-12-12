@@ -1,14 +1,14 @@
 source 'https://rubygems.org'
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
-ruby '~> 2.5.3' # This is now set here and in .ruby-version
+ruby '~> 2.5.8' # This is now set here and in .ruby-version
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '~> 5.2.3'
+gem 'rails', '~> 5.2.4'
 # Use postgresql as the database for Active Record
 gem 'pg'
 # Use Puma as the app server
-gem 'puma', '~> 3.11'
+gem 'puma', '~> 5.1.1'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
 # Use Uglifier as compressor for JavaScript assets
@@ -36,27 +36,28 @@ gem 'jbuilder', '~> 2.5'
 gem 'bootsnap', '>= 1.1.0', require: false
 
 # Use Devise for authentication
-gem 'devise', '~> 4.6.2'
+gem 'devise', '~> 4.7.3'
 
 # User PaperTrail for tracking
-gem 'paper_trail', '~> 10.3.0'
+gem 'paper_trail', '~> 11.0.0'
 
 #Use MiniMagick for compressing uploaded images
-gem 'mini_magick', '~> 4.9.2'
+gem 'mini_magick', '~> 4.11.0'
 
 # Use Streamio for video conversion
 gem 'streamio-ffmpeg' #warning: this gem is no longer actively maintained, should use another solution e.g. use FFMPEG directly from ruby which is simple four our needs
+
 # Browser detection
-gem 'browser', '~> 2.5.3'
+gem 'browser', '~> 5.1.0'
 
 # Use Twilo for SMS notifications
-gem 'twilio-ruby', '~> 5.23.0'
+gem 'twilio-ruby', '~> 5.45'
 
 # Use Bootstrap
 gem 'bootstrap-sass', '~> 3.4.1'
 
 # Use Prawn for PDF generation
-gem 'prawn', '~> 2.2'
+gem 'prawn', '~> 2.3'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
@@ -77,7 +78,7 @@ group :test do
   gem 'capybara', '>= 2.15'
   gem 'selenium-webdriver'
   # Easy installation and use of chromedriver to run system tests with Chrome
-  gem 'chromedriver-helper'
+  #gem 'chromedriver-helper'
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
