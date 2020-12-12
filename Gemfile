@@ -36,7 +36,7 @@ gem 'jbuilder', '~> 2.5'
 gem 'bootsnap', '>= 1.1.0', require: false
 
 # Use Devise for authentication
-gem 'devise', '~> 4.7.3'
+gem 'devise', '~> 4.7.1'
 
 # User PaperTrail for tracking
 gem 'paper_trail', '~> 11.0.0'
