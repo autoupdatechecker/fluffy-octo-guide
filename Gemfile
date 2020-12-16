@@ -39,7 +39,7 @@ gem 'bootsnap', '>= 1.1.0', require: false
 gem 'devise', '~> 4.7.3'
 
 # User PaperTrail for tracking
-gem 'paper_trail', '~> 11.0.0'
+gem 'paper_trail', '~> 11.1.0'
 
 #Use MiniMagick for compressing uploaded images
 gem 'mini_magick', '~> 4.11.0'
