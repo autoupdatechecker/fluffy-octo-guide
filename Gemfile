@@ -1,14 +1,14 @@
 source 'https://rubygems.org'
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
-ruby '~> 2.5.8' # This is now set here and in .ruby-version
+ruby '~> 2.5.9' # This is now set here and in .ruby-version
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '~> 5.2.4'
+gem 'rails', '~> 5.2.5'
 # Use postgresql as the database for Active Record
 gem 'pg'
 # Use Puma as the app server
-gem 'puma', '~> 5.1.1'
+gem 'puma', '~> 5.2.2'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
 # Use Uglifier as compressor for JavaScript assets
