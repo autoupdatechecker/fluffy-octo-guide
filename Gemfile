@@ -57,7 +57,7 @@ gem 'twilio-ruby', '~> 5.45'
 gem 'bootstrap-sass', '~> 3.4.1'
 
 # Use Prawn for PDF generation
-gem 'prawn', '~> 2.3'
+gem 'prawn', '~> 2.4'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
